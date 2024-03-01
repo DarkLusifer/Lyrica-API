@@ -3,7 +3,7 @@ import requests
 
 #GET method
 url = "https://lyricaapi.onrender.com/lyrics?song=SONG_NAME"
-re = get(url)
+re = requests.get(url)
 
 print(re.text)
 
